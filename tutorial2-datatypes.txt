@@ -1,0 +1,71 @@
+/**
+ * Created by richardseviora on 14-11-17.
+ */
+// declare a variable
+var x;
+// declare and initialize a variable by setting it to a value
+var name = 5;
+undefined
+//whole
+6, 17
+// floating point
+3.14159
+3.14159
+var number1 = 14;
+var number2 = 9;
+// * Multiply both operands
+number1 * number2; // returns 126
+// / Divide numerator by denominator
+number1 / number2; // returns 1
+// - Subtracts second operand from the first
+number1 - number2; // returns 5
+// + Adds two operands
+number1 + number2; // returns 23
+// % Modulus Operator (provides the remainder of an integer division)
+number1 % number2; // returns 5
+5
+// **postfix increment** variable1 is incremented (i.e. variable1 = variable1 + 1). When evaluated, the old value of variable1 is returned.
+var a = 1;
+a++ // returns 1
+
+//**prefix increment** variable2 is incremented (i.e. variable1 = variable1 + 1) and its new value is returned.
+var b = 1;
+++b // returns 2
+2
+// **postfix increment** variable1 is decremented (i.e. variable1 = variable1 - 1). When evaluated, the old value of variable1 is returned.
+var a = 1;
+a-- // returns 1
+
+
+// **prefix increment** variable2 is decremented (i.e. variable2 = variable2 - 1) and its new value is returned.
+var b = 1;
+--b // returns 0
+0
+"string of \n text"
+'string of \n text'
+"string of
+text"
+// + concatenates string1 and string2 and returns a new string that is the union of both strings
+"some" + "text"; // returns "sometext"
+var first = "my";
+var second = "string";
+var union = first + second; // union variable has the string "mystring"
+union // returns "mystring"
+"mystring"
+undefined // returns undefined
+undefined
+null // returns null
+null
+true // returns true
+false // returns false
+false
+// AND operator - if both the operands are non zero then the condition becomes true
+expression1 && expression2
+// OR Operator - if any of the two operands are non zero then the condition becomes true
+expression3 || expression4
+// NOT Operator - use to reverse the logical state of its operand. If a condition is true then Logical NOT operator will make it false
+!expression5
+Uncaught ReferenceError: expression1 is not defined VM657:3
+typeof("Hello"); // returns "string"
+typeof(13); // returns "number"
+"number"

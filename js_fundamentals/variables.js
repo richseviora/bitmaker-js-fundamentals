@@ -3,18 +3,26 @@
 // EXERCISE: The Fortune Teller
 
 // Why pay a fortune teller when you can just program your fortune yourself?
-
+var numberOfChildren = prompt("How many children do you have?");
+var partnersName = prompt("What's your partner name?");
+var location = prompt("What's your location?");
+var jobTitle = prompt("What's your job title?");
 // Store the following into variables: number of children, partner's name, geographic location, job title.
 // Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+console.log("You will be a " + jobTitle + " in " + location + ", and married to " + partnersName + " with " + numberOfChildren + " kids.");
 
 // EXERCISE: The Age Calculator
 
 // Forgot how old someone is? Calculate it!
-
 // Store the current year in a variable.
 // Store their birth year in a variable.
+var birthYear = prompt("What's your birth year?");
+var currentYear = Date.new.getFullYear();
+var possibleYear1 = birthYear - currentYear;
+var possibleYear2 = birthYear - currentYear - 1;
 // Calculate their 2 possible ages based on the stored values.
 // Output them to the screen like so: "They are either NN or NN", substituting the values.
+console.log("You will be either " + possibleYear1 + " or " + possibleYear2);
 
 // EXERCISE: The Lifetime Supply Calculator
 
