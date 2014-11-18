@@ -13,6 +13,25 @@
 // cumin
 // cocoa
 
+function Recipe (title, servings, ingredients) {
+    this.title = title;
+    this.servings = servings;
+    this.ingredients = ingredients;
+    this.log = function () {
+        console.log(this.title);
+        console.log("Serves: " + this.servings);
+        console.log("Ingredients:");
+        for (var i = 0; i < this.ingredients.length; i++) {
+            console.log(this.ingredients[i]);
+        }
+    }
+}
+
+var newRecipe = new Recipe('Caesar',1,['Brutus','One Knife']);
+newRecipe.log();
+
+
+
 // EXERCISE: The Reading List
 
 // Keep track of which books you read and which books you want to read!
